@@ -1,4 +1,4 @@
-import requests
+toimport requests
 from lxml import etree
 import pandas as pd
 import xml.etree.ElementTree as eT
@@ -160,7 +160,7 @@ for sitemap_url in sitemaps:
     df['day'] = df['date'].dt.day
 
     # Ensure the target directory exists
-    path = os.path.join(os.path.expanduser("~"), "Documents", "24-25", "SIPA + Wayback", "GothamDispatch", "docs")
+    path = os.path.join(os.path.expanduser("~"), "Desktop")
     os.makedirs(path, exist_ok=True)
 
     # Save the DataFrame to a CSV file
