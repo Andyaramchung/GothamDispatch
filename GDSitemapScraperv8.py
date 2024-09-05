@@ -1,4 +1,4 @@
-toimport requests
+import requests
 from lxml import etree
 import pandas as pd
 import xml.etree.ElementTree as eT
