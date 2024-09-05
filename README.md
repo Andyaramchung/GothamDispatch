@@ -1,5 +1,6 @@
 # GothamDispatch
 This is a project for Columbia SIPA and the Brown Institute for Media Innovation.
 
+To run the code, download the three main files and place them in the Desktop. Open a terminal, navigate to the Desktop, and then run "python GDSitemapScraperv8.py" to begin. THEN, run "python AuthorTextScraperv2.py". The files should then be downloaded and ready to use. 
 
-Please note the following: the code is written with specific file paths to my computer. You'll have to edit some of the lines to match the file paths for the desktop. I'll try to do it here but if an error is thrown, shoot me an email.
+Shoot me an email at andrew.chung@columbia.edu if you need help.
