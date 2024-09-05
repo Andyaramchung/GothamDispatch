@@ -91,8 +91,8 @@ def get_author(soup_object):
 
 
 # Define paths
-input_path = os.path.join(os.path.expanduser("~"), "Documents", "24-25", "SIPA + Wayback", "GothamDispatch", "docs")
-output_path = os.path.join(os.path.expanduser("~"), "Documents", "24-25", "SIPA + Wayback", "GothamDispatch", "out")
+input_path = os.path.join(os.path.expanduser("~"), "Desktop")
+output_path = os.path.join(os.path.expanduser("~"), "Desktop")
 
 # Create output directory if it doesn't exist
 if not os.path.exists(output_path):
