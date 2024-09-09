@@ -105,7 +105,7 @@ last_month = today - timedelta(days=30)
 # Iterate through each file in the input path
 for filename in os.listdir(input_path):
     if not filename.endswith('.csv'):
-        print("Invalid file!")
+        print("Invalid file! Skipping and continuing...")
         continue
     file_path = os.path.join(input_path, filename)
     if os.path.isfile(file_path):
